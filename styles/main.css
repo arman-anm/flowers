@@ -52,6 +52,9 @@
     line-height: 30px;
     margin-bottom: 30px;
   }
+  .title {
+    text-align: center;
+  }
   .description {
     text-align: center;
   }
@@ -89,13 +92,15 @@
     display: none;
   }
 
+  .banner-text {
+    max-width: 600px;
+  }
+
   .banner-image {
-    max-width: 635px;
+    max-width: 600px;
     height: auto;
     flex-shrink: 0;
     margin-bottom: -3.5px;
-    margin-left: 10px;
-
   }
 
   .banner-section {
@@ -104,9 +109,14 @@
     justify-content: space-between;
   }
 
-/* Cards */
+/* Featured Section */
   .featured-section {
     margin-top: 200px;
+  }
+
+  .featured-section .description {
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   .cards {
@@ -153,4 +163,41 @@
     text-decoration-line: underline;
     display: block;
     margin-top: 30px;
+  }
+
+  /* Hot deal section */
+  .hot-deal-section {
+    margin-top: 150px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+  }
+
+  .hot-deal-section>h2 {
+    align-items: center;
+  }
+  .percent-off {
+    color:#E55473;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .hot-deal-items-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px;
+
+  }
+
+  .hot-deal-text {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
   }
