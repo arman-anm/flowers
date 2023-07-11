@@ -237,5 +237,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+  }
+/* Instagram */
+  .instagram-images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .instagram-images-container img {
+    /* max-width: 350px; */
   }
